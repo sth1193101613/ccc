@@ -14,7 +14,14 @@ autoFixContext(
 export default defineConfig({
   build: {
     rollupOptions: {
-      input: []
+      input: 'src/main.tsx',
+      output: [
+        {
+          format: 'umd',
+          name: 'LIB',
+          file: 'build/main.js'
+        }
+      ],
     }
   },
   optimizeDeps: {
