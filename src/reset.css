@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: albb;
+  src: url("./assets/font/albb.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: AB;
+  src: url("./assets/font/AlibabaPuHuiTi-2-55-Regular.ttf")format('truetype');
+}
+
+@font-face {
+  font-family: pf;
+  src: url('./assets/font/PingFang.ttc');
+}
+
+/* CSS Document */
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+dl,
+dd,
+form,
+input,
+textarea,
+select,
+p {
+  padding: 0;
+  margin: 0;
+  color: var(--fontColor);
+}
+
+img {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+#root {
+  /* height: 100%; */
+}
+
+html {
+  touch-action: manipulation;
+}
+
+.App {
+  height: 100%;
+  position: relative;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: AB;
+  /* font-family: v-sans, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+  box-sizing: border-box;
+  font-size: 14px;
+  -webkit-overflow-scrolling: touch;
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+
+a,
+input {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  text-decoration: blink;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table td {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+svg {
+  width: auto;
+  height: auto
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body.adm-overflow-hidden {
+  overflow: scroll !important;
+}
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #C1C9D5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: all 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: all 1000ms
+}

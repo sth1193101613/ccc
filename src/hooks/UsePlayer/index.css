@@ -1,0 +1,25 @@
+.nodes-enter,
+.nodes-appear {
+    opacity: 1;
+    transform: translateY(100%);
+}
+.nodes-enter-active,
+.nodes-appear-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all .5s;
+}
+.node-enter {
+    opacity: 0;
+}
+.node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.node-exit {
+    opacity: 1;
+}
+.node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}

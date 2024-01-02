@@ -1,0 +1,14 @@
+.virtual-scroll-box{
+    width: inherit;
+    height: inherit;
+    overflow: hidden auto;
+    position: relative;
+  }
+  .virtual-content{
+    width: inherit;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }

@@ -1,0 +1,12 @@
+:root {
+  --fontColor: #ddd;
+  --fontc: #d6d6d6;
+  --bgColor:rgb(27,27,35);
+  --cardColor:rgb(34,34,34);
+  --tabLine: '-85px';
+  --whiteColor: #fff;
+  --size12: 12px;
+  --size14: 14px;
+  --popColor: rgb(21, 21, 21);
+  --size16: 16px;
+}
