@@ -20,11 +20,7 @@ export default defineConfig({
   optimizeDeps: {
     entries: [],
   },
-  plugins: [react({
-    babel: {
-      plugins: ['@babel/plugin-transform-react-jsx'],
-    },
-  })],
+  plugins: [],
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.tsx', '.ts'],
     // alias: {
