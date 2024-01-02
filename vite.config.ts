@@ -17,9 +17,10 @@ export default defineConfig({
       input: 'src/main.tsx',
       output: [
         {
-          format: 'umd',
-          name: 'LIB',
-          file: 'build/main.js'
+        dir: 'lib',
+        format: 'umd',
+        name: '...',
+        entryFileNames: '[name].umd.min.js',
         }
       ],
     }
